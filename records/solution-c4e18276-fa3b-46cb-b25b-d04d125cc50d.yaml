@@ -1,0 +1,19 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    solution_name: "DimasHearthstone"
+    customer_name: "Engineering"
+  name: "solution-c4e18276-fa3b-46cb-b25b-d04d125cc50d"
+  namespace: "infrastructure"
+spec:
+  name: "c4e18276-fa3b-46cb-b25b-d04d125cc50d.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"

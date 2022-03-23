@@ -1,0 +1,19 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    solution_name: "aiinsuranceqatitle"
+    customer_name: "EngDSM"
+  name: "solution-da95f56f-870b-458e-b662-67f38c26c6c7"
+  namespace: "infrastructure"
+spec:
+  name: "da95f56f-870b-458e-b662-67f38c26c6c7.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"

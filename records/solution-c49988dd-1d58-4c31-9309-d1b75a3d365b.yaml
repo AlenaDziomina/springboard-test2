@@ -1,0 +1,19 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    solution_name: "greenwaste"
+    customer_name: "Engineering"
+  name: "solution-c49988dd-1d58-4c31-9309-d1b75a3d365b"
+  namespace: "infrastructure"
+spec:
+  name: "c49988dd-1d58-4c31-9309-d1b75a3d365b.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"

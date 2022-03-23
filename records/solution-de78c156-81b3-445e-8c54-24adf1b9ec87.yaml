@@ -1,0 +1,19 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    solution_name: "DimasIPRO"
+    customer_name: "Engineering"
+  name: "solution-de78c156-81b3-445e-8c54-24adf1b9ec87"
+  namespace: "infrastructure"
+spec:
+  name: "de78c156-81b3-445e-8c54-24adf1b9ec87.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"

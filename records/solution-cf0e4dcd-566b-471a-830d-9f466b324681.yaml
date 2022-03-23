@@ -1,0 +1,19 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    solution_name: "Rosemary404test"
+    customer_name: "Engineering"
+  name: "solution-cf0e4dcd-566b-471a-830d-9f466b324681"
+  namespace: "infrastructure"
+spec:
+  name: "cf0e4dcd-566b-471a-830d-9f466b324681.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
