@@ -1,0 +1,19 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    solution_name: "pmsitemap86n8h"
+    customer_name: "Postman"
+  name: "solution-f4fae6df-5015-44f7-a95d-30e22561d404"
+  namespace: "infrastructure"
+spec:
+  name: "f4fae6df-5015-44f7-a95d-30e22561d404.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
