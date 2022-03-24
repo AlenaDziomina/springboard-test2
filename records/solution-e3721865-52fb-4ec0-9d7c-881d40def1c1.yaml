@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "sitemaps3"
     customer_name: "QE"
+    solution_name: "sitemaps3"
   name: "solution-e3721865-52fb-4ec0-9d7c-881d40def1c1"
   namespace: "infrastructure"
 spec:
