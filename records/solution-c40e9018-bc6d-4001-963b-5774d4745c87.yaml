@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    customer_name: "Engineering"
     solution_name: "CHECKBUGFIX"
+    customer_name: "Engineering"
   name: "solution-c40e9018-bc6d-4001-963b-5774d4745c87"
   namespace: "infrastructure"
 spec:
