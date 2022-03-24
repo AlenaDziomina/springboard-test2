@@ -6,11 +6,11 @@ metadata:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
     customer_name: "Engineering"
-    solution_name: "mlzendesktest2"
-  name: "solution-e044d664-a83b-486e-a0c7-45841fec5a44"
+    solution_name: "name"
+  name: "solution-a2329555-5bfe-4db3-8b7a-de299adbcc2f"
   namespace: "infrastructure"
 spec:
-  name: "e044d664-a83b-486e-a0c7-45841fec5a44.applications.lucidworks.dev."
+  name: "a2329555-5bfe-4db3-8b7a-de299adbcc2f.applications.lucidworks.dev."
   type: "CNAME"
   ttl: 300
   rrdatas:

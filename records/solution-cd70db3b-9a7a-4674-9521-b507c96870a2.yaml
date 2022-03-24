@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "WSussexSean"
     customer_name: "Engineering"
+    solution_name: "WSussexSean"
   name: "solution-cd70db3b-9a7a-4674-9521-b507c96870a2"
   namespace: "infrastructure"
 spec:
