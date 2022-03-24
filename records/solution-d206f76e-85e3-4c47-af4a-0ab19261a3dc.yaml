@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    customer_name: "Engineering"
     solution_name: "SAVERUN2"
+    customer_name: "Engineering"
   name: "solution-d206f76e-85e3-4c47-af4a-0ab19261a3dc"
   namespace: "infrastructure"
 spec:
