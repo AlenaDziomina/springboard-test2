@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "TestDelete"
     customer_name: "Engineering"
+    solution_name: "TestDelete"
   name: "solution-d9fcd596-6913-43fc-9ed0-25ed7d324915"
   namespace: "infrastructure"
 spec:
