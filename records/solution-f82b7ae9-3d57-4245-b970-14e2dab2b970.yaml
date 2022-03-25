@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "deterministicsortserviceapp"
     customer_name: "QE"
+    solution_name: "deterministicsortserviceapp"
   name: "solution-f82b7ae9-3d57-4245-b970-14e2dab2b970"
   namespace: "infrastructure"
 spec:
