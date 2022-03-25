@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "DimasService"
     customer_name: "Engineering"
+    solution_name: "DimasService"
   name: "solution-b8d1e8f3-1a3b-4c32-a2d4-edab491c7a6e"
   namespace: "infrastructure"
 spec:

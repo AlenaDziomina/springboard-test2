@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "seldon2"
     customer_name: "Engineering"
+    solution_name: "seldon2"
   name: "solution-dc17fdbe-569a-4b24-ae5a-9090a900856d"
   namespace: "infrastructure"
 spec:

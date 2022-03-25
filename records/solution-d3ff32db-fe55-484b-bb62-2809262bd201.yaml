@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "aiinsuranceqatitle005"
     customer_name: "Engineering"
+    solution_name: "aiinsuranceqatitle005"
   name: "solution-d3ff32db-fe55-484b-bb62-2809262bd201"
   namespace: "infrastructure"
 spec:
