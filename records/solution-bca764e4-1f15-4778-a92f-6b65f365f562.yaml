@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    customer_name: "Engineering"
     solution_name: "SujinUItest"
+    customer_name: "Engineering"
   name: "solution-bca764e4-1f15-4778-a92f-6b65f365f562"
   namespace: "infrastructure"
 spec:
