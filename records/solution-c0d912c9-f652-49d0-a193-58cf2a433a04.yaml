@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    customer_name: "Postman"
     solution_name: "pmsitemap1f62w"
+    customer_name: "Postman"
   name: "solution-c0d912c9-f652-49d0-a193-58cf2a433a04"
   namespace: "infrastructure"
 spec:

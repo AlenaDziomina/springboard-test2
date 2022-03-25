@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    customer_name: "Engineering"
     solution_name: "Tesbugfixes"
+    customer_name: "Engineering"
   name: "solution-fd23465d-5d45-4458-a96c-da7805d4fbe6"
   namespace: "infrastructure"
 spec:
