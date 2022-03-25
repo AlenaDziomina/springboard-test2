@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    customer_name: "Engineering"
     solution_name: "Kimapp"
+    customer_name: "Engineering"
   name: "solution-ee66fc17-9812-4216-828e-c0a43aef6f41"
   namespace: "infrastructure"
 spec:

@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    customer_name: "Engineering"
     solution_name: "foodwaste001"
+    customer_name: "Engineering"
   name: "solution-ab2d0c67-fe79-4c10-bffb-9b055f4ec5d1"
   namespace: "infrastructure"
 spec:
