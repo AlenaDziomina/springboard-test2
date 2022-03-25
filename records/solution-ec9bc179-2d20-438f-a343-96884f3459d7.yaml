@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "LucidworksSite"
     customer_name: "Engineering"
+    solution_name: "LucidworksSite"
   name: "solution-ec9bc179-2d20-438f-a343-96884f3459d7"
   namespace: "infrastructure"
 spec:
