@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "d3vZendeskOAUTH2"
     customer_name: "Engineering"
+    solution_name: "d3vZendeskOAUTH2"
   name: "solution-d6039ac5-f418-46de-8815-3bc2a09e73d2"
   namespace: "infrastructure"
 spec:
