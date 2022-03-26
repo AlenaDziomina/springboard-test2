@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "TestCSearch"
     customer_name: "Engineering"
+    solution_name: "TestCSearch"
   name: "solution-b7062a46-55bb-4a08-bc7f-76f517fc6044"
   namespace: "infrastructure"
 spec:
