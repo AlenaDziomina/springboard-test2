@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    customer_name: "Engineering"
     solution_name: "greenwaste"
+    customer_name: "Engineering"
   name: "solution-c49988dd-1d58-4c31-9309-d1b75a3d365b"
   namespace: "infrastructure"
 spec:
