@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "BigDatasourceforQE539"
     customer_name: "Engineering"
+    solution_name: "BigDatasourceforQE539"
   name: "solution-e97b682a-0c18-49b1-a535-4435e84c1605"
   namespace: "infrastructure"
 spec:

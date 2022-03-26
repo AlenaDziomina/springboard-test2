@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "ConnectedServiceTest"
     customer_name: "Mario"
+    solution_name: "ConnectedServiceTest"
   name: "solution-a00a6cd1-39e7-4717-96c0-17ddfd4ccacf"
   namespace: "infrastructure"
 spec:
