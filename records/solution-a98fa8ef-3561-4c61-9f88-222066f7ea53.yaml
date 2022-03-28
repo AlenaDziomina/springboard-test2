@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "Nothingtoseehere"
     customer_name: "Engineering"
+    solution_name: "Nothingtoseehere"
   name: "solution-a98fa8ef-3561-4c61-9f88-222066f7ea53"
   namespace: "infrastructure"
 spec:
