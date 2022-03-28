@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "sonja2"
     customer_name: "Engineering"
+    solution_name: "sonja2"
   name: "solution-f2ec0200-1b2b-4b50-a44d-b72f12b66596"
   namespace: "infrastructure"
 spec:
