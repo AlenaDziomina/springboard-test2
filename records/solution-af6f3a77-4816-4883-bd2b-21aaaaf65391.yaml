@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    customer_name: "QEautomationcustomer"
     solution_name: "mvptestrobot93209a8e50a"
+    customer_name: "QEautomationcustomer"
   name: "solution-af6f3a77-4816-4883-bd2b-21aaaaf65391"
   namespace: "infrastructure"
 spec:
