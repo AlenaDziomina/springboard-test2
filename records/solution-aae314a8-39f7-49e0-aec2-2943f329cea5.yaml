@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    customer_name: "Engineering"
     solution_name: "sp"
+    customer_name: "Engineering"
   name: "solution-aae314a8-39f7-49e0-aec2-2943f329cea5"
   namespace: "infrastructure"
 spec:
