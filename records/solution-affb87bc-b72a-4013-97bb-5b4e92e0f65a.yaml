@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "apperro"
     customer_name: "Engineering"
+    solution_name: "apperro"
   name: "solution-affb87bc-b72a-4013-97bb-5b4e92e0f65a"
   namespace: "infrastructure"
 spec:

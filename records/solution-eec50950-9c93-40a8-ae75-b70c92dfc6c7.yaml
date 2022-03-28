@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "TestSaveRun"
     customer_name: "Engineering"
+    solution_name: "TestSaveRun"
   name: "solution-eec50950-9c93-40a8-ae75-b70c92dfc6c7"
   namespace: "infrastructure"
 spec:
