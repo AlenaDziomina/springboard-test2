@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    customer_name: "DataSourceDevelopment"
     solution_name: "checkdatasourcecreation"
+    customer_name: "DataSourceDevelopment"
   name: "solution-b50a5950-97c0-42fd-9525-b8c31d73e579"
   namespace: "infrastructure"
 spec:
