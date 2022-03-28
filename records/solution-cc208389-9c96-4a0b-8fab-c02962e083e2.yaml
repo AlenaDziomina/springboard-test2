@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "Testqueryparameterslinks"
     customer_name: "Engineering"
+    solution_name: "Testqueryparameterslinks"
   name: "solution-cc208389-9c96-4a0b-8fab-c02962e083e2"
   namespace: "infrastructure"
 spec:
