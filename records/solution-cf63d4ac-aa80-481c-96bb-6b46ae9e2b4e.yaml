@@ -5,12 +5,12 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    customer_name: "Engineering"
-    solution_name: "mlzendesktest2"
-  name: "solution-e044d664-a83b-486e-a0c7-45841fec5a44"
+    customer_name: "QEautomationcustomer"
+    solution_name: "appsextrobot949978e0abd"
+  name: "solution-cf63d4ac-aa80-481c-96bb-6b46ae9e2b4e"
   namespace: "infrastructure"
 spec:
-  name: "e044d664-a83b-486e-a0c7-45841fec5a44.applications.lucidworks.dev."
+  name: "cf63d4ac-aa80-481c-96bb-6b46ae9e2b4e.applications.lucidworks.dev."
   type: "CNAME"
   ttl: 300
   rrdatas:

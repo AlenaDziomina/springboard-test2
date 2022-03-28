@@ -5,8 +5,8 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    solution_name: "Newniceapp"
     customer_name: "Engineering"
+    solution_name: "Newniceapp"
   name: "solution-cf74594e-d598-470c-b1f0-ef0871b16e8a"
   namespace: "infrastructure"
 spec:
