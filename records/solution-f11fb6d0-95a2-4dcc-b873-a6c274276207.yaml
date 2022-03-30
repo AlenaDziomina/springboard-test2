@@ -6,7 +6,7 @@ metadata:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
     customer_name: "QEautomationcustomer"
-    solution_name: "appsintrobot984c51d5486"
+    solution_name: "appsintrobot984c51d5486updated"
   name: "solution-f11fb6d0-95a2-4dcc-b873-a6c274276207"
   namespace: "infrastructure"
 spec:
