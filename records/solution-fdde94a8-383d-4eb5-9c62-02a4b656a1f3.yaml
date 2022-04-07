@@ -6,11 +6,11 @@ metadata:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
     customer_name: "Postman"
-    solution_name: "pmsitemapgskn0"
-  name: "solution-e0990875-339a-4c85-8262-cd043a611623"
+    solution_name: "pmsitemapindexgavya"
+  name: "solution-fdde94a8-383d-4eb5-9c62-02a4b656a1f3"
   namespace: "infrastructure"
 spec:
-  name: "e0990875-339a-4c85-8262-cd043a611623.applications.lucidworks.dev."
+  name: "fdde94a8-383d-4eb5-9c62-02a4b656a1f3.applications.lucidworks.dev."
   type: "CNAME"
   ttl: 300
   rrdatas:
