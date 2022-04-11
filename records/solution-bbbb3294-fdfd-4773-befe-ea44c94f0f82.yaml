@@ -1,0 +1,19 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    customer_name: "QE"
+    solution_name: "joblockcheck"
+  name: "solution-bbbb3294-fdfd-4773-befe-ea44c94f0f82"
+  namespace: "infrastructure"
+spec:
+  name: "bbbb3294-fdfd-4773-befe-ea44c94f0f82.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
