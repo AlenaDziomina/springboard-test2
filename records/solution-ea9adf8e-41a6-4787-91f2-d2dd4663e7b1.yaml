@@ -5,12 +5,12 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    customer_name: "Postman"
-    solution_name: "testappwotjk"
-  name: "solution-ed8055a1-3c03-4790-8ba9-86936045f9dc"
+    customer_name: "QEautomationcustomer"
+    solution_name: "appsintrobot1033d69c2e3c"
+  name: "solution-ea9adf8e-41a6-4787-91f2-d2dd4663e7b1"
   namespace: "infrastructure"
 spec:
-  name: "ed8055a1-3c03-4790-8ba9-86936045f9dc.applications.lucidworks.dev."
+  name: "ea9adf8e-41a6-4787-91f2-d2dd4663e7b1.applications.lucidworks.dev."
   type: "CNAME"
   ttl: 300
   rrdatas:
