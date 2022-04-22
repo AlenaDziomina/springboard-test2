@@ -5,12 +5,12 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
-    customer_name: "cusrobot1057578e989cedit"
-    solution_name: "custestrobot1057c459c316"
-  name: "solution-ced937c1-fde0-4979-8c12-fadf740360f3"
+    customer_name: "QEautomationcustomer"
+    solution_name: "metatagsrobotlocal87b0bbb4"
+  name: "solution-abcae919-9f88-4fc8-b825-a311671778df"
   namespace: "infrastructure"
 spec:
-  name: "ced937c1-fde0-4979-8c12-fadf740360f3.applications.lucidworks.dev."
+  name: "abcae919-9f88-4fc8-b825-a311671778df.applications.lucidworks.dev."
   type: "CNAME"
   ttl: 300
   rrdatas:
