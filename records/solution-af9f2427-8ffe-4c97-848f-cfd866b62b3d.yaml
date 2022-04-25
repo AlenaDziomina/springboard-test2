@@ -6,11 +6,11 @@ metadata:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
     customer_name: "QEautomationcustomer"
-    solution_name: "metatagsrobot1292ef7cad37"
-  name: "solution-e5bc0b67-3385-4db9-9ec0-0267c4705466"
+    solution_name: "zendeskrobot12704e6ab4f3"
+  name: "solution-af9f2427-8ffe-4c97-848f-cfd866b62b3d"
   namespace: "infrastructure"
 spec:
-  name: "e5bc0b67-3385-4db9-9ec0-0267c4705466.applications.lucidworks.dev."
+  name: "af9f2427-8ffe-4c97-848f-cfd866b62b3d.applications.lucidworks.dev."
   type: "CNAME"
   ttl: 300
   rrdatas:
