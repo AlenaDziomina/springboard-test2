@@ -17,6 +17,3 @@ spec:
   - "data-1-dev.cells.lucidworks.dev."
   managedZoneRef:
     external: "applications-sb-dev-zone"
-latestCondition:
-  empty: true
-  present: false
