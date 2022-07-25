@@ -1,0 +1,19 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    customer_name: "Engineering"
+    solution_name: "FetcherDB"
+  name: "solution-e7b6c6bc-2eee-4686-8317-59e5464b2f6e"
+  namespace: "infrastructure"
+spec:
+  name: "e7b6c6bc-2eee-4686-8317-59e5464b2f6e.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
