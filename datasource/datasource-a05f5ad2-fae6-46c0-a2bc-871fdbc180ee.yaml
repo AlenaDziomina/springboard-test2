@@ -6,15 +6,15 @@ metadata:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
     cell_name: "fetch-1-dev-usea1"
-    customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
-    customer_name: "Engineering"
-    datasource_id: "d5996501-516c-4906-a26e-208d8197b127"
-    datasource_name: "jobs1"
+    customer_id: "5538969a-72c8-44b2-b89f-4526db9ddff3"
+    customer_name: "QE-automation-customer"
+    datasource_id: "a05f5ad2-fae6-46c0-a2bc-871fdbc180ee"
+    datasource_name: "lwqe-zendesk-ds-api"
     record_type: "datasource"
-  name: "datasource-d5996501-516c-4906-a26e-208d8197b127"
+  name: "datasource-a05f5ad2-fae6-46c0-a2bc-871fdbc180ee"
   namespace: "infrastructure"
 spec:
-  name: "d5996501-516c-4906-a26e-208d8197b127.datasources.lucidworks.dev."
+  name: "a05f5ad2-fae6-46c0-a2bc-871fdbc180ee.datasources.lucidworks.dev."
   type: "CNAME"
   ttl: 300
   rrdatas:

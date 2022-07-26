@@ -6,15 +6,15 @@ metadata:
     cnrm.cloud.google.com/project-id: "springboard-dev-316314"
   labels:
     cell_name: "fetch-1-dev-usea1"
-    customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
-    customer_name: "Engineering"
-    datasource_id: "d5996501-516c-4906-a26e-208d8197b127"
-    datasource_name: "jobs1"
+    customer_id: "ee30ebd7-5608-481b-bee7-b959043ef291"
+    customer_name: "Eng-DS-V"
+    datasource_id: "3e78e9c4-91b1-4438-92d0-2437cb6161ad"
+    datasource_name: "aimsmarcoctgovtitledesc"
     record_type: "datasource"
-  name: "datasource-d5996501-516c-4906-a26e-208d8197b127"
+  name: "datasource-3e78e9c4-91b1-4438-92d0-2437cb6161ad"
   namespace: "infrastructure"
 spec:
-  name: "d5996501-516c-4906-a26e-208d8197b127.datasources.lucidworks.dev."
+  name: "3e78e9c4-91b1-4438-92d0-2437cb6161ad.datasources.lucidworks.dev."
   type: "CNAME"
   ttl: 300
   rrdatas:

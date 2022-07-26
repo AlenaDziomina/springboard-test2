@@ -8,13 +8,13 @@ metadata:
     cell_name: "fetch-1-dev-usea1"
     customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
     customer_name: "Engineering"
-    datasource_id: "d5996501-516c-4906-a26e-208d8197b127"
-    datasource_name: "jobs1"
+    datasource_id: "4e357332-f6a0-4fe4-9bf6-13547457286e"
+    datasource_name: "LearnXinY"
     record_type: "datasource"
-  name: "datasource-d5996501-516c-4906-a26e-208d8197b127"
+  name: "datasource-4e357332-f6a0-4fe4-9bf6-13547457286e"
   namespace: "infrastructure"
 spec:
-  name: "d5996501-516c-4906-a26e-208d8197b127.datasources.lucidworks.dev."
+  name: "4e357332-f6a0-4fe4-9bf6-13547457286e.datasources.lucidworks.dev."
   type: "CNAME"
   ttl: 300
   rrdatas:
