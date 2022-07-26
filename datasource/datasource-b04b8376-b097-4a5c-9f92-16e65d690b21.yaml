@@ -9,7 +9,7 @@ metadata:
     customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
     customer_name: "Engineering"
     datasource_id: "b04b8376-b097-4a5c-9f92-16e65d690b21"
-    datasource_name: "2-"
+    datasource_name: "2"
     record_type: "datasource"
   name: "datasource-b04b8376-b097-4a5c-9f92-16e65d690b21"
   namespace: "infrastructure"
