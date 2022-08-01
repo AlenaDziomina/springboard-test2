@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "fetch-1-dev-usea1"
+    customer_id: "ee30ebd7-5608-481b-bee7-b959043ef291"
+    customer_name: "Eng-DS-V"
+    datasource_id: "e773f237-6b66-434b-b473-3a9e9cc0f8fb"
+    datasource_name: "aiinsuranceqatitle"
+    record_type: "datasource"
+  name: "datasource-e773f237-6b66-434b-b473-3a9e9cc0f8fb"
+  namespace: "infrastructure"
+spec:
+  name: "e773f237-6b66-434b-b473-3a9e9cc0f8fb.datasources.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "fetch-1-dev-usea1.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "datasources-sb-dev-zone"
