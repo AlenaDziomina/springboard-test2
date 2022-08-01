@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "data-1-dev"
+    customer_id: "ee30ebd7-5608-481b-bee7-b959043ef291"
+    customer_name: "Eng-DS-V"
+    record_type: "solution"
+    solution_id: "c9ac034a-5a23-45bc-a225-cf924c4cc29f"
+    solution_name: "aimsmarcoenergygovcservice"
+  name: "solution-c9ac034a-5a23-45bc-a225-cf924c4cc29f"
+  namespace: "infrastructure"
+spec:
+  name: "c9ac034a-5a23-45bc-a225-cf924c4cc29f.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
