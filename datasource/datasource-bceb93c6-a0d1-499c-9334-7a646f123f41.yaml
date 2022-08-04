@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "fetch-1-dev-usea1"
+    customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
+    customer_name: "Engineering"
+    datasource_id: "bceb93c6-a0d1-499c-9334-7a646f123f41"
+    datasource_name: "jane-zd-oauth"
+    record_type: "datasource"
+  name: "datasource-bceb93c6-a0d1-499c-9334-7a646f123f41"
+  namespace: "infrastructure"
+spec:
+  name: "bceb93c6-a0d1-499c-9334-7a646f123f41.datasources.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "fetch-1-dev-usea1.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "datasources-sb-dev-zone"
