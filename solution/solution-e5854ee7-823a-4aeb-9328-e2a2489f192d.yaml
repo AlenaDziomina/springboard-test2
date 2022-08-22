@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "data-1-dev"
+    customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
+    customer_name: "Engineering"
+    record_type: "solution"
+    solution_id: "e5854ee7-823a-4aeb-9328-e2a2489f192d"
+    solution_name: "Dimadima"
+  name: "solution-e5854ee7-823a-4aeb-9328-e2a2489f192d"
+  namespace: "infrastructure"
+spec:
+  name: "e5854ee7-823a-4aeb-9328-e2a2489f192d.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
