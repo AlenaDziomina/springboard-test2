@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "data-1-dev"
+    customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
+    customer_name: "Engineering"
+    record_type: "solution"
+    solution_id: "ea4df460-b741-4bf1-9223-8feb4b63a7ef"
+    solution_name: "StJude"
+  name: "solution-ea4df460-b741-4bf1-9223-8feb4b63a7ef"
+  namespace: "infrastructure"
+spec:
+  name: "ea4df460-b741-4bf1-9223-8feb4b63a7ef.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
