@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "fetch-1-dev-usea1"
+    customer_id: "ee30ebd7-5608-481b-bee7-b959043ef291"
+    customer_name: "Eng-DS-V"
+    datasource_id: "b75255c0-9c90-4d41-bd68-c1595bc52a6b"
+    datasource_name: "govuksitemaps"
+    record_type: "datasource"
+  name: "datasource-b75255c0-9c90-4d41-bd68-c1595bc52a6b"
+  namespace: "infrastructure"
+spec:
+  name: "b75255c0-9c90-4d41-bd68-c1595bc52a6b.datasources.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "fetch-1-dev-usea1.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "datasources-sb-dev-zone"
