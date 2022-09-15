@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "fetch-1-dev-usea1"
+    customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
+    customer_name: "Engineering"
+    datasource_id: "b3f56482-0e85-41cf-8a96-55f8c262130f"
+    datasource_name: "Testdel"
+    record_type: "datasource"
+  name: "datasource-b3f56482-0e85-41cf-8a96-55f8c262130f"
+  namespace: "infrastructure"
+spec:
+  name: "b3f56482-0e85-41cf-8a96-55f8c262130f.datasources.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "fetch-1-dev-usea1.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "datasources-sb-dev-zone"
