@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "data-1-dev"
+    customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
+    customer_name: "Engineering"
+    record_type: "solution"
+    solution_id: "c067fcd7-d23e-4164-950b-7a2960fa0bf6"
+    solution_name: "diego-test-2"
+  name: "solution-c067fcd7-d23e-4164-950b-7a2960fa0bf6"
+  namespace: "infrastructure"
+spec:
+  name: "c067fcd7-d23e-4164-950b-7a2960fa0bf6.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
