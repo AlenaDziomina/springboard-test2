@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "data-1-dev"
+    customer_id: "5538969a-72c8-44b2-b89f-4526db9ddff3"
+    customer_name: "QE-automation-customer"
+    record_type: "solution"
+    solution_id: "dbada159-eac5-4aaf-a7d1-bd54e7c78c7b"
+    solution_name: "app-introbot3264c81c66"
+  name: "solution-dbada159-eac5-4aaf-a7d1-bd54e7c78c7b"
+  namespace: "infrastructure"
+spec:
+  name: "dbada159-eac5-4aaf-a7d1-bd54e7c78c7b.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
