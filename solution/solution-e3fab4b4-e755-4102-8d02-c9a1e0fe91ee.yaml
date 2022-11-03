@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "data-1-dev"
+    customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
+    customer_name: "Engineering"
+    record_type: "solution"
+    solution_id: "e3fab4b4-e755-4102-8d02-c9a1e0fe91ee"
+    solution_name: "2Luiz"
+  name: "solution-e3fab4b4-e755-4102-8d02-c9a1e0fe91ee"
+  namespace: "infrastructure"
+spec:
+  name: "e3fab4b4-e755-4102-8d02-c9a1e0fe91ee.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
