@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "fetch-1-dev-usea1"
+    customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
+    customer_name: "Engineering"
+    datasource_id: "785f6034-b793-4aa5-9f20-b68fc614aa83"
+    datasource_name: "hearthstone"
+    record_type: "datasource"
+  name: "datasource-785f6034-b793-4aa5-9f20-b68fc614aa83"
+  namespace: "infrastructure"
+spec:
+  name: "785f6034-b793-4aa5-9f20-b68fc614aa83.datasources.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "fetch-1-dev-usea1.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "datasources-sb-dev-zone"
