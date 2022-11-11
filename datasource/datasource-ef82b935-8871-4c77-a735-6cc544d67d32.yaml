@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "fetch-1-dev-usea1"
+    customer_id: "4e6a8368-bdd5-4df0-abe6-a52a20e1cf7a"
+    customer_name: "QE"
+    datasource_id: "ef82b935-8871-4c77-a735-6cc544d67d32"
+    datasource_name: "123"
+    record_type: "datasource"
+  name: "datasource-ef82b935-8871-4c77-a735-6cc544d67d32"
+  namespace: "infrastructure"
+spec:
+  name: "ef82b935-8871-4c77-a735-6cc544d67d32.datasources.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "fetch-1-dev-usea1.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "datasources-sb-dev-zone"
