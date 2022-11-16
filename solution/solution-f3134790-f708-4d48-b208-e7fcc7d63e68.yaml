@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "data-1-dev"
+    customer_id: "8db7552a-5188-4c0e-9883-d039a43b8660"
+    customer_name: "Postman"
+    record_type: "solution"
+    solution_id: "f3134790-f708-4d48-b208-e7fcc7d63e68"
+    solution_name: "load-test-app"
+  name: "solution-f3134790-f708-4d48-b208-e7fcc7d63e68"
+  namespace: "infrastructure"
+spec:
+  name: "f3134790-f708-4d48-b208-e7fcc7d63e68.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
