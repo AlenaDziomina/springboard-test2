@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "data-1-dev"
+    customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
+    customer_name: "Engineering"
+    record_type: "solution"
+    solution_id: "c5b2cf06-dbc6-4669-ae7e-606f3dd8939d"
+    solution_name: "machinelearning2"
+  name: "solution-c5b2cf06-dbc6-4669-ae7e-606f3dd8939d"
+  namespace: "infrastructure"
+spec:
+  name: "c5b2cf06-dbc6-4669-ae7e-606f3dd8939d.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
