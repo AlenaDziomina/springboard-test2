@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "data-1-dev"
+    customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
+    customer_name: "Engineering"
+    record_type: "solution"
+    solution_id: "b80e108c-60fe-4839-9248-8b974e7d1c92"
+    solution_name: "FusionSignals"
+  name: "solution-b80e108c-60fe-4839-9248-8b974e7d1c92"
+  namespace: "infrastructure"
+spec:
+  name: "b80e108c-60fe-4839-9248-8b974e7d1c92.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
