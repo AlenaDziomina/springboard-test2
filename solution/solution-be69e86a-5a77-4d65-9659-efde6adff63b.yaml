@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "data-1-dev"
+    customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
+    customer_name: "Engineering"
+    record_type: "solution"
+    solution_id: "be69e86a-5a77-4d65-9659-efde6adff63b"
+    solution_name: "vespademo"
+  name: "solution-be69e86a-5a77-4d65-9659-efde6adff63b"
+  namespace: "infrastructure"
+spec:
+  name: "be69e86a-5a77-4d65-9659-efde6adff63b.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
