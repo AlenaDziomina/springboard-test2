@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "data-1-dev"
+    customer_id: "ee30ebd7-5608-481b-bee7-b959043ef291"
+    customer_name: "Eng-DS-V"
+    record_type: "solution"
+    solution_id: "f4f17cd8-c3dd-46ea-8aae-f3bd66af8b9b"
+    solution_name: "aifulllawcornelledu"
+  name: "solution-f4f17cd8-c3dd-46ea-8aae-f3bd66af8b9b"
+  namespace: "infrastructure"
+spec:
+  name: "f4f17cd8-c3dd-46ea-8aae-f3bd66af8b9b.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
