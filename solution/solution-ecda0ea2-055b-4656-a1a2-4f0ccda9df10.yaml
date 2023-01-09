@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "data-1-dev"
+    customer_id: "ee30ebd7-5608-481b-bee7-b959043ef291"
+    customer_name: "Eng-DS-V"
+    record_type: "solution"
+    solution_id: "ecda0ea2-055b-4656-a1a2-4f0ccda9df10"
+    solution_name: "aigovuk"
+  name: "solution-ecda0ea2-055b-4656-a1a2-4f0ccda9df10"
+  namespace: "infrastructure"
+spec:
+  name: "ecda0ea2-055b-4656-a1a2-4f0ccda9df10.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
