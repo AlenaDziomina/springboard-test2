@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "fetch-1-dev-usea1"
+    customer_id: "ee30ebd7-5608-481b-bee7-b959043ef291"
+    customer_name: "Eng-DS-V"
+    datasource_id: "40f6a395-e5dc-4de3-8e99-33d517a9ee63"
+    datasource_name: "aifullenergygovpushapi"
+    record_type: "datasource"
+  name: "datasource-40f6a395-e5dc-4de3-8e99-33d517a9ee63"
+  namespace: "infrastructure"
+spec:
+  name: "40f6a395-e5dc-4de3-8e99-33d517a9ee63.datasources.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "fetch-1-dev-usea1.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "datasources-sb-dev-zone"
