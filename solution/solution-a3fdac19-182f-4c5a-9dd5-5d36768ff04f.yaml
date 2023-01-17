@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "data-1-dev"
+    customer_id: "bb8676c9-8c7d-497f-b6d0-784749701b78"
+    customer_name: "cusrobot318178f3b77dedit"
+    record_type: "solution"
+    solution_id: "a3fdac19-182f-4c5a-9dd5-5d36768ff04f"
+    solution_name: "cus-testrobot31814cde01"
+  name: "solution-a3fdac19-182f-4c5a-9dd5-5d36768ff04f"
+  namespace: "infrastructure"
+spec:
+  name: "a3fdac19-182f-4c5a-9dd5-5d36768ff04f.applications.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "data-1-dev.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "applications-sb-dev-zone"
