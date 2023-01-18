@@ -1,0 +1,23 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "springboard-dev-316314"
+  labels:
+    cell_name: "fetch-1-dev-usea1"
+    customer_id: "8db7552a-5188-4c0e-9883-d039a43b8660"
+    customer_name: "Postman"
+    datasource_id: "e27ae040-30eb-4b66-afd1-947768ad20ab"
+    datasource_name: "DS"
+    record_type: "datasource"
+  name: "datasource-e27ae040-30eb-4b66-afd1-947768ad20ab"
+  namespace: "infrastructure"
+spec:
+  name: "e27ae040-30eb-4b66-afd1-947768ad20ab.datasources.lucidworks.dev."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "fetch-1-dev-usea1.cells.lucidworks.dev."
+  managedZoneRef:
+    external: "datasources-sb-dev-zone"
