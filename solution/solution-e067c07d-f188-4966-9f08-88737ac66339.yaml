@@ -9,12 +9,12 @@ metadata:
     customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
     customer_name: "Engineering"
     record_type: "solution"
-    solution_id: "f16b02fc-0fe6-4c50-a361-ecde044cd0b4"
-    solution_name: "01-josh-test"
-  name: "solution-f16b02fc-0fe6-4c50-a361-ecde044cd0b4"
+    solution_id: "e067c07d-f188-4966-9f08-88737ac66339"
+    solution_name: "APPLICATION2"
+  name: "solution-e067c07d-f188-4966-9f08-88737ac66339"
   namespace: "infrastructure"
 spec:
-  name: "f16b02fc-0fe6-4c50-a361-ecde044cd0b4.applications.lucidworks.dev."
+  name: "e067c07d-f188-4966-9f08-88737ac66339.applications.lucidworks.dev."
   type: "CNAME"
   ttl: 300
   rrdatas:

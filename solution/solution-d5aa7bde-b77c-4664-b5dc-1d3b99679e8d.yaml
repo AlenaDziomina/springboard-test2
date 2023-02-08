@@ -9,12 +9,12 @@ metadata:
     customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
     customer_name: "Engineering"
     record_type: "solution"
-    solution_id: "fce274e8-1a62-4317-8237-04f4e89fad56"
-    solution_name: "FionDemo"
-  name: "solution-fce274e8-1a62-4317-8237-04f4e89fad56"
+    solution_id: "d5aa7bde-b77c-4664-b5dc-1d3b99679e8d"
+    solution_name: "APPLICATION1"
+  name: "solution-d5aa7bde-b77c-4664-b5dc-1d3b99679e8d"
   namespace: "infrastructure"
 spec:
-  name: "fce274e8-1a62-4317-8237-04f4e89fad56.applications.lucidworks.dev."
+  name: "d5aa7bde-b77c-4664-b5dc-1d3b99679e8d.applications.lucidworks.dev."
   type: "CNAME"
   ttl: 300
   rrdatas:

@@ -8,13 +8,13 @@ metadata:
     cell_name: "fetch-1-dev-usea1"
     customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
     customer_name: "Engineering"
-    datasource_id: "b80d57e8-d184-4272-bddb-c4ac40e5326a"
-    datasource_name: "22"
+    datasource_id: "393a66e7-ba8e-449a-8bb4-8ff156fc0f8c"
+    datasource_name: "1"
     record_type: "datasource"
-  name: "datasource-b80d57e8-d184-4272-bddb-c4ac40e5326a"
+  name: "datasource-393a66e7-ba8e-449a-8bb4-8ff156fc0f8c"
   namespace: "infrastructure"
 spec:
-  name: "b80d57e8-d184-4272-bddb-c4ac40e5326a.datasources.lucidworks.dev."
+  name: "393a66e7-ba8e-449a-8bb4-8ff156fc0f8c.datasources.lucidworks.dev."
   type: "CNAME"
   ttl: 300
   rrdatas:

@@ -8,13 +8,13 @@ metadata:
     cell_name: "fetch-1-dev-usea1"
     customer_id: "3f923335-f2e1-4ced-ad64-4000541732db"
     customer_name: "Engineering"
-    datasource_id: "063104e9-2b90-4522-a1c6-24966f3f9a72"
-    datasource_name: "hearthstone-ds"
+    datasource_id: "1da2bdd3-c993-4f19-9f2a-a5d97e361a06"
+    datasource_name: "1"
     record_type: "datasource"
-  name: "datasource-063104e9-2b90-4522-a1c6-24966f3f9a72"
+  name: "datasource-1da2bdd3-c993-4f19-9f2a-a5d97e361a06"
   namespace: "infrastructure"
 spec:
-  name: "063104e9-2b90-4522-a1c6-24966f3f9a72.datasources.lucidworks.dev."
+  name: "1da2bdd3-c993-4f19-9f2a-a5d97e361a06.datasources.lucidworks.dev."
   type: "CNAME"
   ttl: 300
   rrdatas:
