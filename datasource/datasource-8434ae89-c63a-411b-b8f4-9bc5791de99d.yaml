@@ -1,0 +1,19 @@
+---
+apiVersion: "dns.cnrm.cloud.google.com/v1beta1"
+kind: "DNSRecordSet"
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "123"
+  labels:
+    cell_name: "cell"
+    record_type: "datasource"
+  name: "datasource-8434ae89-c63a-411b-b8f4-9bc5791de99d"
+  namespace: "nms"
+spec:
+  name: "8434ae89-c63a-411b-b8f4-9bc5791de99d.datasources.dmn."
+  type: "CNAME"
+  ttl: 300
+  rrdatas:
+  - "cell.cells.dmn."
+  managedZoneRef:
+    external: "datasources-sb-test-zone"
